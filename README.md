@@ -1,4 +1,4 @@
-# Hangman Game
+# Hangman Game 🎮
 
 This is a Python-based Hangman game where the player guesses letters to figure out the hidden word. 
 The first letter is shown, and the player has 6 lives to guess the rest of the word.
