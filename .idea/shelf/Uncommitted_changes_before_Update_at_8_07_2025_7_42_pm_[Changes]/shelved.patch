@@ -1,0 +1,84 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Hangman Game\r\n\r\nThis is a Python-based Hangman game where the player guesses letters to figure out the hidden word. \r\nThe first letter is shown, and the player has 6 lives to guess the rest of the word.\r\n\r\n## Features:\r\n- The first letter of the word is shown.\r\n- The Hangman figure keeps showing up with each wrong guess.\r\n- The game ends when the word is guessed or the player runs out of lives.\r\n\r\n## How to Play:\r\n1. Guess a letter.\r\n2. If correct, the letter is revealed in the word.\r\n3. If wrong, a life is lost.\r\n4. The game ends when the word is guessed or when you run out of lives.\r\n\r\n## Installation:\r\nClone the repository and run the `main.py` file.\r\n\r\n## Acknowledgements:\r\n- ASCII Art: The hangman logo and stages were generated from [ascii.co.uk](https://ascii.co.uk/art/hangman).\r\n- Word List: 150 random words were generated using [Random Word Generator](https://www.randomlists.com/random-words?dup=false&qty=150).\r\n\r\n```bash\r\ngit clone https://github.com/fahmida-alam/hangman-game.git\r\ncd hangman-game\r\npython main.py\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision fff6625d20758bafa3d0dd9220e6c5db7988a770)
++++ b/README.md	(date 1751967598111)
+@@ -1,4 +1,4 @@
+-# Hangman Game
++# Hangman Game 🎮
+ 
+ This is a Python-based Hangman game where the player guesses letters to figure out the hidden word. 
+ The first letter is shown, and the player has 6 lives to guess the rest of the word.
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b5f2d27c-53eb-4558-9683-8574a9466932\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/PythonProject.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/hangman_art.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/hangman_words.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/main.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/fahmida-alam/hangman-game.git\",\r\n    \"accountId\": \"3445a429-3a18-4674-a165-2b751e4c33ca\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 4\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2zZPv8XPtAJQaCbAzTNXS4dflAU\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"Python.main.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b5f2d27c-53eb-4558-9683-8574a9466932\" name=\"Changes\" comment=\"\" />\r\n      <created>1751935850079</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1751935850079</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision fff6625d20758bafa3d0dd9220e6c5db7988a770)
++++ b/.idea/workspace.xml	(date 1751955430070)
+@@ -4,17 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b5f2d27c-53eb-4558-9683-8574a9466932" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hangman_art.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hangman_words.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+-    </list>
++    <list default="true" id="b5f2d27c-53eb-4558-9683-8574a9466932" name="Changes" comment="Commit of Hangman game with README and game files" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -30,6 +20,12 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "fahmida-alam"
++  }
++}]]></component>
+   <component name="GithubPullRequestsUISettings"><![CDATA[{
+   "selectedUrlAndAccountId": {
+     "url": "https://github.com/fahmida-alam/hangman-game.git",
+@@ -68,6 +64,15 @@
+       <option name="presentableId" value="Default" />
+       <updated>1751935850079</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Commit of Hangman game with README and game files">
++      <option name="closed" value="true" />
++      <created>1751955011244</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1751955011244</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -81,4 +86,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Commit of Hangman game with README and game files" />
++    <option name="LAST_COMMIT_MESSAGE" value="Commit of Hangman game with README and game files" />
++  </component>
+ </project>
+\ No newline at end of file
